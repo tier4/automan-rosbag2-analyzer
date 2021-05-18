@@ -18,3 +18,6 @@ class LocalStorageClient(BaseStorageClient):
 
     def get_local_path(self):
         return self.storage_config['path']
+
+    def get_metadata_local_path(self):
+        return self.storage_config['sub_file_path']
