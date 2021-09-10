@@ -10,6 +10,7 @@ rospkg = "*"
 requests = "*"
 pycryptodomex = "*"
 gnupg = "*"
+pyyaml = "*"
 
 [requires]
 python_version = "2.7"
